@@ -6,9 +6,15 @@ Exp:
 
 
 - From this:
+
+
 ![image text](https://github.com/jwolfcn/doclever2code/blob/master/assets/case1%402x.png)
-```
+
+
 - To Code:
+
+
+```
 /**
 * 用户登录
 * @param {String} account 用户名
