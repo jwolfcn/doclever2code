@@ -104,7 +104,7 @@
     if (method.toLowerCase().indexOf('get') > -1) {
       paramsStr = qParams.length > 0 ? `\n    params: { ${qParams.join(', ')} }` : `\n    params: {}`
     } else {
-      paramsStr = bodyParams.length > 0 ? `\n    params: { ${bodyParams.join(', ')} }` : `\n    params: {}`
+      paramsStr = bodyParams.length > 0 ? `\n    data: { ${bodyParams.join(', ')} }` : `\n    data: {}`
     }
     return '/**' +
     '\n* ' + comment +
