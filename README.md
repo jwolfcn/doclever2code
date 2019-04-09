@@ -25,7 +25,7 @@ export function functionName({ account, password, activationCode }) {
   return request({
     url: '/auth/login',
     method: 'post',
-    params: { account, password, activationCode }
+    data: { account, password, activationCode }
   })
 }
 ```
