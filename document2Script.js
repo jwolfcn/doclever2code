@@ -93,7 +93,7 @@
     fparams = fparams + (fparams.length > 1 ? ' }' : '}')
     var urlStr = ''
     if (pParams.length > 0) {
-      var temp = `\'url\'`
+      var temp = `\'${url}\'`
       pParams.forEach(item => {
       temp  = `${temp}.replace(\'{${item}}\', ${item})`
       })
